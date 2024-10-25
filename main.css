@@ -1,0 +1,74 @@
+body{
+    margin:0;
+}
+p {
+    color: snow;
+    font-size: 25px;
+    text-align: center;
+    background-color: darkcyan;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+}
+.foto{
+    background-image: url("portfolio foto yamai.jpg");
+    background-color: black;
+    height: 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width-property:100%
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container h1 {
+    height: 20px;
+    color: navajowhite;
+    text-align: left;
+    padding: 14px;
+    width: 70%;
+}
+
+.container p {
+    height: 20px; /
+    color: purple;
+    text-decoration-color: darkcyan;
+    text-align: left;
+}
+.container h2{
+    color: navajowhite;
+}
+.container .text{
+    flex: 2;
+}
+
+.container .foto{
+    flex: 1;
+}
