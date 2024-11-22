@@ -9,7 +9,7 @@ body {
     background-color: #333;
     overflow: hidden;
     position: relative;
-    z-index: 10; /* Zorgt ervoor dat de navbar boven andere elementen ligt */
+    z-index: 10;
 }
 
 .navbar a {
@@ -30,15 +30,14 @@ body {
     float: right;
     top: 15px;
     right: 15px;
-    height: 80px; /* Verhoog de hoogte naar 80px of een gewenste waarde */
-    width: auto; /* Zorg ervoor dat de breedte automatisch wordt aangepast */
-    background-color:black; /* Voeg een achtergrondkleur toe om het logo beter zichtbaar te maken */
-    padding: 5px; /* Voeg wat padding toe voor ruimte rondom het logo */
-    border-radius: 5px; /* Voeg afgeronde hoeken toe voor een mooiere uitstraling */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg een schaduw toe voor diepte */
-    z-index: 20; /* Zorgt ervoor dat het logo boven de navbar ligt */
+    height: 80px;
+    width: auto;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 20;
 }
-
 
 .foto {
     background-image: url("portfolio foto yamai.jpg");
@@ -48,7 +47,7 @@ body {
     background-repeat: no-repeat;
     background-size: 500px;
     width: 100%;
-    z-index: 1; /* Zorgt ervoor dat de foto onder de navbar en het logo ligt */
+    z-index: 1;
 }
 
 .container {
@@ -80,7 +79,6 @@ body {
 
 .container .text {
     flex: 2;
-
 }
 
 .container .foto {
@@ -114,26 +112,16 @@ body {
     background-color: #555;
 }
 
-.p5 {
-    color: snow;
-    text-align: center;
-    font-size: 20px;
-    font-family: "Berlin Sans FB";
-    width: 50%; /* Stelt de breedte in op 50% van de container */
-    margin: 20px auto; /* Centreert het element horizontaal en voegt wat ruimte toe */
-    clear: both; /* Zorgt ervoor dat het element onder de zwevende elementen begint */
-}
-
 .float-right {
     float: right;
-    margin-left: 10px; /* Optioneel: voegt wat ruimte toe tussen de afbeeldingen en de tekst */
-    margin-bottom: 10px; /* Voegt ruimte toe tussen de afbeeldingen */
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .experience {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Voegt ruimte toe tussen de verschillende ervaringen */
+    margin-bottom: 20px;
 }
 
 .experience p {
@@ -144,7 +132,7 @@ body {
 }
 
 .experience img {
-    margin-left: 10px; /* Voegt ruimte toe tussen de tekst en de afbeelding */
+    margin-left: 10px;
 }
 
 .contact {
@@ -200,6 +188,7 @@ body {
     color: white;
     padding: 20px;
     border-radius: 10px;
+    width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -269,18 +258,32 @@ input, textarea {
     background-color: cyan;
 }
 
-
-.container-center-content{
+.container-center-content {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-
-.container-nav{
+.container-nav {
     display: flex;
     align-items: center;
     margin: 0 auto;
     max-width: 1000px;
+}
+
+.video-interview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+.video-interview video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
